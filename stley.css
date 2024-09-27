@@ -22,6 +22,10 @@ header{
     display: flex;
     border-bottom: 3px solid #000000;
 }
+main{
+    display: flex;
+    flex: 1;
+}
 input{
     border: none;
     outline: none;
@@ -84,4 +88,15 @@ input{
     width: 3px;
     height: 100%;
     background-color: #000000;
+}
+.esquerda{
+    width: 10vh;
+    height: 100%;
+    background-color: crimson;
+    padding-right: 1vh;
+}
+.esquerda h2{
+    width: 250px;
+    transform: rotate(270deg);
+    background-color: aqua;
 }
