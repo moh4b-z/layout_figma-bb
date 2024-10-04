@@ -24,6 +24,7 @@ header{
 }
 main{
     display: flex;
+    height: 90%;
     flex: 1;
 }
 input{
@@ -90,13 +91,18 @@ input{
     background-color: #000000;
 }
 .esquerda{
+    font-family: "Righteous", sans-serif;
     width: 10vh;
     height: 100%;
-    background-color: crimson;
-    padding-right: 1vh;
+    padding: 10px;
+    justify-content: center;
+    align-items: start;
 }
 .esquerda h2{
-    width: 250px;
-    transform: rotate(270deg);
-    background-color: aqua;
+    width: 500px;
+    height: 40px;
+    font-size: 32px;
+    transform: rotate(270deg) translate(-45%, -400%);
+    letter-spacing: 10px;
+
 }
